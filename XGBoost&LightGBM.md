@@ -15,7 +15,8 @@
 3.2.1 正则化的学习目标
 加入正则化目标来防止过拟合
 XGBoost的目标函数：
-
+![clip_image002213fffaf-7984-4864-ae5d-eb88923d4aa5.png](XGBoost&LightGBM_files/clip_image002213fffaf-7984-4864-ae5d-eb88923d4aa5.png)
+                  Where![clip_image00409a6e9dd-ee51-4750-b0cc-a3c715056826.png](XGBoost&LightGBM_files/clip_image00409a6e9dd-ee51-4750-b0cc-a3c715056826.png)
 3.2.2 拆分查找算法
 （1）基本的贪婪提取算法：数据需要先排序，访问数据时需要有序以便于积累梯度统计量（在scikit-learn,单机XGBoost里面，单机提升树也会用到）；
 优点：算法很强大（列举了所有可能的拆分方式）；
